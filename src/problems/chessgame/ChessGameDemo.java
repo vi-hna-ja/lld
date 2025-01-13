@@ -1,5 +1,7 @@
 package problems.chessgame;
 
+import problems.chessgame.services.ChessGame;
+
 /*
 Requirements:
     The chess game should follow the standard rules of chess.
@@ -13,4 +15,8 @@ Requirements:
  */
 public class ChessGameDemo {
 
+    public void run() {
+        ChessGame chessGame = new ChessGame();
+        chessGame.startGame();
+    }
 }

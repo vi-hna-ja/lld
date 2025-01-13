@@ -1,10 +1,8 @@
-import problems.elevator.ElevatorSystemDemo;
-import problems.logger.LoggingFramework;
-import problems.pubsub.PubSubSystemDemo;
+import problems.chessgame.ChessGameDemo;
 
 public class Main {
     public static void main(String[] args) {
-        ElevatorSystemDemo demo = new ElevatorSystemDemo();
+        ChessGameDemo demo = new ChessGameDemo();
         demo.run();
     }
 }
