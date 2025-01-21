@@ -1,8 +1,8 @@
-import problems.chessgame.ChessGameDemo;
+import problems.hotelbooking.HotelManagementSystemDemo;
 
 public class Main {
     public static void main(String[] args) {
-        ChessGameDemo demo = new ChessGameDemo();
+        HotelManagementSystemDemo demo = new HotelManagementSystemDemo();
         demo.run();
     }
 }
