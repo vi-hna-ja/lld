@@ -1,8 +1,9 @@
+import problems.atm.ATMSystemDemo;
 import problems.hotelbooking.HotelManagementSystemDemo;
 
 public class Main {
     public static void main(String[] args) {
-        HotelManagementSystemDemo demo = new HotelManagementSystemDemo();
+        ATMSystemDemo demo = new ATMSystemDemo();
         demo.run();
     }
 }
