@@ -31,6 +31,15 @@ Location Management:
 6. Notification:
     Customers should receive notifications upon successful locker assignment, providing them with the locker ID and PIN.
     Notifications should also be sent if there are any issues with locker assignment or unassignment.
+
+TODO: MISSIN :
+- implement a notification service
+    - there should be 2 request types: send pin, package picked up
+    - add listeners
+- clean up lockers
+- have a payment strategy and initiate refund when locker couldn't be found
+- have a priority strategy to process order
+- order that couldn't be placed needs to be moved to another queue and try placing order
  */
 
 public class AmazonLockerSystemDemo {
