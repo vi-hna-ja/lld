@@ -59,6 +59,7 @@ public class BankService {
     }
 
     synchronized void withdrawCash(User user, Card card) {
+        // add dummy commit
         lock.lock();
         try {
             validatePin(card.getPin());
